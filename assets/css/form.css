@@ -1,0 +1,242 @@
+.green{
+    color:#1CCD40;
+}
+
+.red{
+    color:#FD0002;
+}
+
+.btn{
+    border: none;
+    font-size: 12px;
+    border-radius: 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #00a0df;
+    border-color: #00a0df;
+}
+
+.btn-primary:hover {
+    background-color: #0090c8;
+    border-color: #0090c8;
+}
+
+.btn-secondary{
+    color: #fff;
+    background-color: #191C21;
+    border-color: #191C21;
+}
+
+.btn-secondary:hover {
+    background-color: #16191d;
+    border-color: #16191d;
+}
+
+.btn-grid{
+    border: none;
+    padding-right: 7px;
+    font-size: 12px;
+    color: #00a0df;
+}
+
+.btn-control{
+    border: none;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.form-control {
+    font-size: 12px;
+    line-height: 13px;
+    height: 2em;
+    padding: .275rem .75rem;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    border: 1px solid #D5D5D5;
+    border-radius: 0;
+    background: #F9F9F9;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 0rem;
+    letter-spacing: .065em;
+}
+
+/***********************************************/
+
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 500px; 
+    /*height: 100%;*/
+    height: calc(100vh - 45px);
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-xl,
+.modal.right .modal-xl {
+    min-width: 1140px;
+}
+
+.modal.left .modal-lg,
+.modal.right .modal-lg {
+    min-width: 800px;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    top: 45px;
+    left: 235px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+        
+/*Right*/
+.modal.right.fade .modal-dialog {
+    top: 45px;
+    right: 0px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    border-radius: 0;
+    border-bottom-color: #EEEEEE;
+    background-color: #191C21;
+    color: #fff;
+    padding: .65rem 1rem;
+}
+
+.modal-header button {
+    color: #fff;
+}
+
+.modal-footer {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-title {
+    font-size:15px;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem 0.6rem 1rem;
+}
+
+.close {
+    color: #FFF;
+    opacity: 1;
+}
+
+.close:hover {
+    color: #EEEEEE;
+}
+
+/***********************************************/
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: #31373A;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    padding: 0.2rem 1.5rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: #31373A;
+    border: 1px #31373A solid;
+}
+
+ul.nav-pills > li:first-child .nav-link {
+    border-right:none
+}
+ul.nav-pills > li:last-child .nav-link {
+    border-left:none
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #EEEEEE;
+    color: #31373A;
+}
+
+/***********************************************/
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #191C21;
+    background-color: #F8F9FA;
+    border-color:rgba(0,0,0,.125);
+    font-weight: 600;
+    border-left: 3px #191C21 solid;
+}
+
+.list-group-item {
+    padding: .5rem;
+    font-size: 12px;
+}
+
+.list-group-item i {
+    float: right;
+    vertical-align: top;
+}
+
+/***********************************************/  
+
+i.info-control {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
